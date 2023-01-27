@@ -1,0 +1,249 @@
+.lms{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ux-images{
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.inner-lms-app{
+    width: 100%;
+    height: 800px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.second-lms-part{
+    width: 80%;
+}
+
+.select-course{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(24, 24, 24);
+}
+
+
+.all-courses-header{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.lms-designing{
+    border-radius: 25px;
+    background-color: rgb(178, 161, 211);
+    width: 195px;
+    height: 270px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+.lms-designing-2{
+    border-radius: 25px;
+    background-color: rgb(243, 159, 149);
+    width: 195px;
+    height: 270px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+.lms-designing-3{
+    border-radius: 25px;
+    background-color: rgb(118, 174, 118);
+    width: 195px;
+    height: 270px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+
+
+.lms-user-profile{
+    padding-left: 5%;
+    padding-top: 10px;
+   width: 300px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.lms-user-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.lms-user-name{
+ font-size: 20px;
+}
+
+.lms-user-username{
+    font-size: 16px;
+    color: #545556;
+    margin-left: 3px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.upcoming-courses{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: rgb(24, 24, 24);
+}
+
+.lms-course-1{
+    width: 320px;
+    margin-left: 20px;
+    border-radius: 30px;
+    height: 180px;
+    background-color: whitesmoke;
+}
+
+.lms-course-2{
+    width: 320px;
+    margin-left: 20px;
+    border-radius: 30px;
+    height: 180px;
+    background-color: white;
+}
+
+.lms-courses{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lms-main-courses{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+   font-weight: 400;
+}
+
+.view-all{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+
+.lms-courses-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lms-image:hover + .lms-subjects{
+    font-size: 20px;
+}
+
+
+
+.main-hide{
+    display: none;
+    width: auto;
+    height: auto;
+    background-color: rgb(204, 200, 200);
+    border-radius: 5px;
+   position: relative;
+   margin-left: -13%;
+   margin-right: 3%;
+   box-shadow: 0 10px 10px -5px rgb(69, 68, 68);
+}
+
+.hide{
+    font-size: 15px;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+.lms-calender{
+    margin-top: 10%;
+}
+
+.lms-time{
+    margin-left: 7%;
+    width: 10%;
+}
+
+.ui-texts{
+    font-size: 15px;
+    margin-top: 8px; 
+    margin-left: 20px;
+}
+
+.my-courses-header{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(144, 146, 147);
+    width: 20%;
+}
+
+.my-courses-level-header{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(144, 146, 147);
+    width: 15%;
+}
+
+.my-course-subheader{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.subheader-text{
+    font-size: 18px;
+    font-weight: 400;
+    width: 15%;
+}
+.subheader-texts{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.subheader-lessons{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(144, 146, 147);
+}
+
+.subheader-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+}
+
+.subheader-image-and-text{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 20px;
+}

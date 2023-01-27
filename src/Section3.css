@@ -1,0 +1,126 @@
+.section3-leftpart{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 10%;
+}
+
+.section-3-header{
+    font-size: 55px;
+    width: 50%;
+}
+
+.section-3-paragraph{
+    font-size: 18px;
+    width: 45%;
+    font-weight: 500;
+}
+
+.section3{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.first-circle{
+    width: 350px;
+    height: 270px;
+    border-radius: 20px;
+    background-color:whitesmoke;
+   
+    margin-top: 40px;
+    border-style: solid;
+    border-color: rgb(97, 92, 92);
+}
+.third-circle{
+    width: 350px;
+    height: 270px;
+    border-radius: 20px;
+    background-color: rgb(24, 24, 24);
+   
+    margin-top: 10px; 
+    border-style: solid;
+    border-color: black;
+}
+
+.first-circles{
+    display: flex;
+}
+
+.circles{
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-circle{
+    width: 350px;
+    height: 270px;
+    border-radius: 20px;
+    background-color:whitesmoke;
+   
+    margin-top: 40px;
+    border-style: solid;
+    border-color: rgb(97, 92, 92);
+}
+
+.third-circle-text{
+    color: rgb(226, 206, 238);
+    margin-left: 20px;
+    font-size: 45px;
+    margin-top: 60px;
+    font-weight: 900;
+}
+
+.timeframe-text{
+    font-size: 30px;
+   margin-left: 20px;
+}
+
+.timeframe-text2{
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+hr{
+    width: 80%;
+}
+
+.third-circle-paragraph{
+    color: rgb(210, 209, 200);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -30px;
+}
+
+
+.first-circle-text{
+    color: black;
+    margin-left: 20px;
+    font-size: 45px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.first-circle-paragraph{
+    color: rgb(128, 126, 126);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.section3-button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(224, 186, 17);
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+   
+}
