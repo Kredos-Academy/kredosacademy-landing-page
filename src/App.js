@@ -10,6 +10,7 @@ import Calenders from './Calenders';
 import AllCourses from './AllCourses'
 import FrontendCourse from './Courses/FrontendCourse';
 import BackendCourse from './Courses/BackendCourse';
+import UiDesign from './Courses/UiDesign'
 import Frontendvideo from './Videos/Frontendvideo';
   
 
@@ -44,6 +45,9 @@ function App() {
               </Route>
               <Route path='/Student/courses/Backend'>
                 <BackendCourse />
+              </Route>
+              <Route path='/Student/courses/UiDesign'>
+                <UiDesign />
               </Route>
           </Sidebar>
 
