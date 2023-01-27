@@ -8,11 +8,14 @@ import Calender from './Calender'
 import Time from './Time'
 import Sidebar from './Sidebar'
 import userImage from './Images/IMG_9675.JPG'
+import meme from './Images/IMG_CE7E58DD645E-1.jpeg'
 import './Sidebar.css'
 import { UserData } from './UserData'
 import { MyCoursesData } from './MyCoursesData'
 import AllCourses from './AllCourses'
 import { Link } from 'react-router-dom'
+import PopUp from './PopUp'
+import { useState, useEffect } from 'react'
 
 
 function truncate(input) {
@@ -23,6 +26,19 @@ function truncate(input) {
  };
  
  function LMS() {
+
+    const [timedPopup, settimedPopup] = useState(false)
+
+    
+    useEffect(() => {
+        setTimeout(() => {
+            settimedPopup(true)
+        }, 3000);
+    
+        
+    }, [])
+    
+
    return (
      
         
@@ -52,6 +68,13 @@ function truncate(input) {
                                     <p>{truncate('The backend refers to a programs code that allow it to operate and that cannot be accessed by a user')}</p>
                                 </div>
                             </div>
+
+
+                            <PopUp trigger={timedPopup} setTrigger={settimedPopup}>
+                                <h3>No sleep, ...Wake up</h3>
+                               
+                                <img className='meme' src={meme} alt=''/>
+                            </PopUp>
 
                         <div>
                                 <div className='lms-courses-header'>
