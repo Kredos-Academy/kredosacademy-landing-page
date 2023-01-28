@@ -8,7 +8,7 @@ import product from "./Images/shopping-bag.png";
 function Section1() {
   return (
     <div className="section1 lg:flex inline justify-between">
-      <div className="lg:mt-52 mt-0 lg:mb-52 mb-14 flex ml-24">
+      <div className="lg:mt-52 mt-0 lg:mb-52 mb-14 flex ml-20">
         <div className="lg:mt-12 mt-2 lg:mr-6 mr-1">
           <div className="first-course-1 rounded-3xl lg:w-52 w-24 lg:h-60 h-28 ml-1 lg:mb-6 mb-3 ">
             <img
