@@ -3,10 +3,6 @@
 }
 
 .first-course-2 {
-  border-color: black;
-  border: dimgray;
-  border-style: solid;
-
   background-color: rgb(24, 24, 24);
 }
 
@@ -14,10 +10,12 @@
   border-color: black;
   border: dimgray;
   border-style: solid;
+  border-width: 1px;
 }
 
 .second-course-1 {
   border-color: black;
   border: dimgray;
   border-style: solid;
+  border-width: 1px;
 }

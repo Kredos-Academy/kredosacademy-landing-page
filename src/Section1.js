@@ -8,7 +8,7 @@ import product from "./Images/shopping-bag.png";
 function Section1() {
   return (
     <div className="section1 lg:flex inline justify-between">
-      <div className="lg:mt-52 mt-0 lg:mb-52 mb-5 flex lg:ml-20 ml-10">
+      <div className="lg:mt-52 mt-0 lg:mb-52 mb-14 flex ml-20">
         <div className="lg:mt-12 mt-2 lg:mr-6 mr-2">
           <div className="first-course-1 rounded-3xl lg:w-52 w-24 lg:h-60 h-28 ml-2 lg:mb-6 mb-3 ">
             <img
@@ -16,7 +16,7 @@ function Section1() {
               src={UiDesigning}
               alt="" 
             />
-            <h1 className="lg:text-2xl text-sm lg:mt-20 mt-8 lg:ml-5 ml-3">UI/UX designing</h1>
+            <h1 className="lg:text-2xl text-sm lg:mt-20 mt-6 lg:ml-5 ml-3">UI/UX designing</h1>
           </div>
           <div className="second-course-1 rounded-3xl lg:w-52 w-24 lg:h-60 h-28 ml-2">
             <img
@@ -24,18 +24,18 @@ function Section1() {
               src={backend}
               alt=""
             />
-            <h1 className="lg:text-2xl text-sm lg:mt-20 mt-8 lg:ml-5 ml-3">backend Engineering</h1>
+            <h1 className="lg:text-2xl text-sm lg:mt-20 mt-6 lg:ml-5 ml-3">backend Engineering</h1>
           </div>
-        </div>
+        </div> 
 
-        <div className="lg:mt-0 -mt-14">
-          <div className="first-course-2 rounded-3xl lg:w-64 w-32 lg:h-72 h-36 ml-2 lg:mb-6 mb-3 lg:mt-0 mt-8">
+        <div className="lg:mt-0 -mt-6">
+          <div className="first-course-2 rounded-3xl lg:w-64 w-28 lg:h-72 h-32 ml-2 lg:mb-6 mb-3 lg:mt-0 mt-4 lg:pt-4 pt-1">
             <img
-              className="lg:w-14 w-8 lg:h-14 h-8 rounded-full lg:mt-8 mt-2 lg:ml-6 ml-3"
+              className="lg:w-14 w-8 lg:h-14 h-8 rounded-full lg:m-10 mt-2 lg:ml-6 ml-3"
               src={frontendImage}
               alt=""
             />
-            <h1 className="text-white lg:text-2xl text-sm lg:mt-24 mt-8 lg:ml-5 ml-3">
+            <h1 className="text-white lg:text-2xl text-sm lg:mt-24 mt-6 lg:ml-5 ml-3">
               Frontend Engineering
             </h1>
           </div>
@@ -45,7 +45,7 @@ function Section1() {
               src={product}
               alt=""
             />
-            <h1 className="lg:text-2xl text-sm lg:mt-20 mt-8 lg:ml-5 ml-3">Product management</h1>
+            <h1 className="lg:text-2xl text-sm lg:mt-20 mt-6 lg:ml-5 ml-3">Product management</h1>
           </div>
         </div>
       </div>
