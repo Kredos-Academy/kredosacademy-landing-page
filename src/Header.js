@@ -1,35 +1,38 @@
-import React from 'react'
-import './Header.css'
-import frontendImage from './Images/browser.png'
-import UiDesigning from './Images/designing.png'
-import backend from './Images/server.png'
-import product from './Images/shopping-bag.png'
-import splash from './Images/splash.png'
-import userImage from './Images/IMG_9675.JPG'
-import { Link } from 'react-router-dom'
-
-
+import React from "react";
+import "./Header.css";
+import frontendImage from "./Images/browser.png";
+import UiDesigning from "./Images/designing.png";
+import backend from "./Images/server.png";
+import product from "./Images/shopping-bag.png";
+import splash from "./Images/splash.png";
+import userImage from "./Images/IMG_9675.JPG";
+import { Link } from "react-router-dom";
+ 
 function Header() {
-  return (
+  return ( 
     <div>
-
-
-    <div className='header'>
+      <div className="mb-24">
         <div>
-        <img className='splash-image' src={splash} alt=''/>
-            <h1 className='header-text-1'>Take the next step</h1>
-            <h1 className='header-text-2'>toward your tech career</h1>
-            {/* <h1 className='para'>Learn the in-demand skills required to take you from beginner
-                to industry ready in 12 months. No degree
-                or prior tech experience required.</h1> */}
-            <Link className='applicationlink' to='/Application'><div className='start-button'>
-                <h1 className='start-button-text'>Get Started</h1>
-            </div></Link>
-            
+          <img
+            className="h-20 w-20 ml-72 -mb-16 mt-14 mr-36 rounded-md"
+            src={splash}
+            alt=""
+          />
+          <h1 className="header-text-1 text-7xl font-medium text-center">
+            Take the next step
+          </h1>
+          <h1 className="header-text-2 text-6xl text-center">
+            toward your tech career
+          </h1>
+          <Link className="no-underline" to="/Application">
+            <div className="start-button text-xs text-center font-semibold w-36 rounded-full h-16 mt-6 ml-600 no-underline">
+              <h1 className="start-button-text">Get Started</h1>
+            </div>
+          </Link>
         </div>
 
-        <div className='lms'>
-       {/*  <img className='frontendimage' src={frontendImage} alt=''/> */}
+        {/*  <div className='lms'>
+     
            <div className='inner-lms'>
                 <div className='left-inner-lms'>
                     <h1 className='subjects'>Subjects</h1>
@@ -72,13 +75,10 @@ function Header() {
                 </div>
                 
            </div>
-        </div>
-       
-        
+        </div> */}
+      </div>
     </div>
-     
-    </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

@@ -1,19 +1,15 @@
 .header-text-1{
-    font-size: 70px;
-    font-weight: 500;
-  
+   
     color: #0a0c0e;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+ 
 }
 
 .header-text-2{
-    font-size: 65px;
-    margin-top: -45px;
+    
     color: #0a0c0e;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    letter-spacing: -2px;
+    
 }
 
 .header-image{
@@ -24,33 +20,16 @@
     border-radius: 6px;
 }
 
-.splash-image{
-    height: 80px;
-    width: 80px;
-   margin-left: 25%;
-   margin-bottom: -70px;
-   margin-top: 60px;
-    margin-right: 150px;
-    border-radius: 6px;
-}
 
-.header{
-   
-    margin-bottom: 100px;
-}
+
+
 
 .start-button{
-    font-size: 10px;
-    text-align: center;
-    font-weight: 600;
+    
     color: whitesmoke;
-    width: 160px;
-    border-radius: 50px;
-    height: 60px;
+   
     background-color: rgb(24, 24, 24);
-    margin-top: 25px;
-    margin-left: 43%;
-   text-decoration: none;
+   
 }
 
 .lms{

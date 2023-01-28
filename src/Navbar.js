@@ -1,30 +1,40 @@
-import React from 'react'
-import './Navbar.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className='navbar'>
-        <div className='navbar-contents'>
-            <div className='left-navbar-contents'>
-            <Link className='kredos-logo' to="/">Kredos Academy</Link>
-            </div>
-        
-            <div className='right-navbar-contents'>
-               
-                <Link className='kredo' to='lms'><h1 className='kredo'>Courses</h1></Link>
-                <h1 className='kredo'>FAQs</h1>
-                <h1 className='kredo'>Tuition</h1>
-
-            </div>
-
-            <Link className='applicationlink' to='/Application'><div className='application-button'>
-              <h1 className='application-button-text'>Get Started</h1>
-            </div></Link>
+    <div>
+      <div className="flex justify-between h-20  lg:mx-8 mx-3">
+        <div className="lg:ml-12 ml-2 lg:mt-10 mt-5">
+          <Link
+            className="kredos-logo font-extrabold lg:text-2xl text-lg text-black no-underline"
+            to="/"
+          >
+            Kredos Academy
+          </Link>
         </div>
 
+        {/* <div className="flex mr-8 mt-10 text-xl">
+          <Link
+            className="mx-10 font-semibold text-black no-underline"
+            to="lms"
+          >
+            <h1>Courses</h1>
+          </Link>
+          <h1 className="mx-10 font-semibold text-black no-underline">FAQs</h1>
+          <h1 className="mx-10 font-semibold text-black no-underline">
+            Tuition
+          </h1>
+        </div> */}
+        <Link className="no-underline" to="/Application">
+          <div className="application-button text-xs font-semibold text-center lg:w-40 w-24 lg:rounded-full rounded-3xl lg:h-16 h-8 mt-6">
+            <h1 className="lg:text-xl text-md text-center text-white lg:pt-4 pt-2 no-underline">Get Started</h1>
+          </div>
+        </Link>
+      </div>
     </div>
-  ) 
+  );
 }
- 
-export default Navbar
+
+export default Navbar;
