@@ -8,7 +8,7 @@ import product from "./Images/shopping-bag.png";
 function Section1() {
   return (
     <div className="section1 lg:flex inline justify-between">
-      <div className="lg:mt-52 mt-0 lg:mb-52 mb-14 flex ml-20">
+      <div className="lg:mt-52 mt-0 lg:mb-52 mb-14 flex ml-16">
         <div className="lg:mt-12 mt-2 lg:mr-6 mr-2">
           <div className="first-course-1 rounded-3xl lg:w-52 w-24 lg:h-60 h-28 ml-2 lg:mb-6 mb-3 ">
             <img
@@ -51,7 +51,7 @@ function Section1() {
       </div>
 
       <div className="lg:mt-72 mt-3 lg:ml-40 ml-10 lg:mr-20 mr-9">
-        <h1 className="lg:text-5xl text-2xl font-semibold">
+        <h1 className="lg:text-5xl text-2xl font-semibold lg:mb-0 mb-4">
           Find the right course for you to replenish knowledge and goals
         </h1>
         <h1 className="lg:text-xl text-sm font-medium">

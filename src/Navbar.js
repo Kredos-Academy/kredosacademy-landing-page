@@ -6,9 +6,9 @@ function Navbar() {
   return (
     <div>
       <div className="flex justify-between h-20  lg:mx-8 mx-3">
-        <div className="lg:ml-12 ml-2 lg:mt-10 mt-5">
+        <div className="lg:ml-12 ml-2 lg:mt-10 mt-5 lg:w-20 w-7">
           <Link
-            className="kredos-logo font-extrabold lg:text-3xl text-xl text-black no-underline"
+            className="kredos-logo font-extrabold lg:text-3xl text-base text-black no-underline"
             to="/"
           >
             Kredos Academy
