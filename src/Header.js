@@ -25,7 +25,7 @@ function Header() {
             toward your tech career
           </h1>
           <Link className="no-underline" to="/Application">
-            <div className="start-button text-xs text-center font-semibold lg:w-40 w-28 lg:rounded-full rounded-3xl lg:h-16 h-10 mt-6 lg:ml-600 ml-32 no-underline">
+            <div className="start-button text-xs text-center font-semibold lg:w-40 w-28 lg:rounded-full rounded-3xl lg:h-16 h-10 mt-6 lg:ml-600 ml-36 no-underline">
               <h1 className="lg:text-xl text-md text-center text-white lg:pt-4 pt-3 no-underline">Get Started</h1>
             </div>
           </Link>

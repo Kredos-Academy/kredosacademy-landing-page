@@ -8,9 +8,9 @@ import product from "./Images/shopping-bag.png";
 function Section1() {
   return (
     <div className="section1 lg:flex inline justify-between">
-      <div className="lg:mt-52 mt-0 lg:mb-52 mb-14 flex ml-16">
-        <div className="lg:mt-12 mt-2 lg:mr-6 mr-2">
-          <div className="first-course-1 rounded-3xl lg:w-52 w-24 lg:h-60 h-28 ml-2 lg:mb-6 mb-3 ">
+      <div className="lg:mt-52 mt-0 lg:mb-52 mb-14 flex ml-24">
+        <div className="lg:mt-12 mt-2 lg:mr-6 mr-1">
+          <div className="first-course-1 rounded-3xl lg:w-52 w-24 lg:h-60 h-28 ml-1 lg:mb-6 mb-3 ">
             <img
               className="lg:w-14 w-8 lg:h-14 h-8 rounded-full lg:mt-8 mt-2 lg:ml-6 ml-3"
               src={UiDesigning}
@@ -18,7 +18,7 @@ function Section1() {
             />
             <h1 className="lg:text-2xl text-sm lg:mt-20 mt-6 lg:ml-5 ml-3">UI/UX designing</h1>
           </div>
-          <div className="second-course-1 rounded-3xl lg:w-52 w-24 lg:h-60 h-28 ml-2">
+          <div className="second-course-1 rounded-3xl lg:w-52 w-24 lg:h-60 h-28 ml-1">
             <img
               className="lg:w-14 w-8 lg:h-14 h-8 rounded-full lg:mt-8 mt-2 lg:ml-6 ml-3"
               src={backend}
