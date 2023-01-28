@@ -5,7 +5,7 @@ function Section2() {
   return (
     <div className='section2'>
         <div>
-            <h1 className='lg:text-6xl text-2xl text-center font-bold lg:ml-64 ml-10 lg:mr-64 mr-9 lg:mt-0 mt-20'>
+            <h1 className='lg:text-6xl text-2xl text-center font-semibold lg:ml-64 ml-10 lg:mr-64 mr-9 lg:mt-0 mt-20'>
               Take lessons at your own convenience
             </h1> 
             <h1 className='lg:text-xl text-sm font-medium lg:ml-64 ml-10 lg:mr-64 mr-10 text-center lg:font-normal'>

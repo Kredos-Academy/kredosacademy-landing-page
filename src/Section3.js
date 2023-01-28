@@ -2,11 +2,11 @@ import React from 'react'
 import './Section3.css'
 
 
-function Section3() {
+function Section3() { 
   return (
-    <div className='section3'>
-        <div className='section3-leftpart'>
-            <h1 className='section-3-header'>
+    <div className='section3 pt-48 pb-48'>
+        <div className='pt-12 pb-12 ml-32'>
+            <h1 className='w-6/12 text-6xl font-semibold'>
                 Affordable cost for quality education
             </h1>
             <p className='section-3-paragraph'>

@@ -22,9 +22,9 @@ function HomeScreen() {
 
         <Section2 />
 
-      {/* <Section3 />
+      <Section3 />
 
-       <Footer /> */}
+        {/*<Footer /> */}
     </div>
   )
 }
