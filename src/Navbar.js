@@ -8,11 +8,11 @@ function Navbar() {
       <div className="flex justify-between h-20  lg:mx-8 mx-6">
         <div className="lg:ml-12 ml-2 lg:mt-10 mt-4 lg:w-20 w-7">
           <Link
-            className="kredos-logo font-extrabold lg:text-3xl text-xl text-black no-underline"
+            className="kredos-logo font-extrabold lg:text-3xl text-lg text-black no-underline"
             to="/"
           >
             <h1>Kredos</h1>
-            <h1 className="-mt-2">Academy</h1>
+            <h1 className="-mt-3">Academy</h1>
           </Link>
         </div>
 
