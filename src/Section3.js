@@ -13,7 +13,7 @@ function Section3() {
                 We provide flexible plans to enable students pay according to their finanacial capability
             </h1>
             
-        </div>
+        </div> 
 
         <div className='lg:flex inline mr-16 lg:ml-16 ml-0 justify-around'>
             
