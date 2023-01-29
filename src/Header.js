@@ -24,7 +24,7 @@ function Header() {
           <h1 className="header-text-2 lg:text-6xl text-2xl text-center">
             toward your tech career
           </h1>
-          <Link className="no-underline" to="/Application">
+          <Link className="no-underline" /* to="/Application" */>
             <div className="start-button text-xs text-center font-semibold lg:w-40 w-28 lg:rounded-full rounded-3xl lg:h-16 h-10 mt-6 lg:ml-600 ml-32 no-underline">
               <h1 className="lg:text-xl text-md text-center text-white lg:pt-4 pt-3 no-underline">Get Started</h1>
             </div>
