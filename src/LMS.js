@@ -6,13 +6,16 @@ import Calender from "./Calender";
 import Time from "./Time";
 import Sidebar from "./Sidebar";
 import userImage from "./Images/IMG_9675.JPG";
-import meme from "./Images/IMG_CE7E58DD645E-1.jpeg";
+import connection from "./Images/no-messages.png";
 import "./Sidebar.css";
 import { UserData } from "./UserData";
 import { MyCoursesData } from "./MyCoursesData";
 import PopUp from "./PopUp";
 import { useState, useEffect, useRef } from "react";
 import Confetti from "react-confetti";
+import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
+
 
 function truncate(input) {
   if (input.length > 35) {
@@ -20,7 +23,7 @@ function truncate(input) {
   }
   return input;
 }
-
+ 
 function LMS() {
   const [timedPopup, settimedPopup] = useState(false);
 
@@ -30,10 +33,25 @@ function LMS() {
     }, 3000);
   }, []);
 
-  return (
-    <div className="inner-lms-app">
+  return ( 
+    <div>
+      <div className=" lg:hidden contents">
+        <div className="mobile-lms">
+          <h1 className="text-3xl font-bold ml-4 pt-5 mb-10">404</h1>
+          <img className="w-10/12 ml-4" src={connection} alt="" />
+          <h1 className="text-3xl text-center font-bold ml-4 pt-5 ">oops! <br></br> View on Laptop</h1>
+          <h1 className="text-sm text-center font-medium ml-4 pt-5 mb-10">Sorry, this page can only be viewed on Laptop</h1>
+          <Link className="no-underline" to="/" >
+            <div className="bg-black text-center font-semibold lg:w-40 w-28 lg:rounded-full rounded-3xl lg:h-16 h-10 lg:mt-6 mt-12 lg:ml-630 ml-32 no-underline">
+              <h1 className="lg:text-xl text-md text-center text-white lg:pt-4 pt-2 no-underline">back to home</h1>
+            </div>
+          </Link>
+        </div>
+      </div>
+      <div className="lg:contents hidden">
+    <div className=" inner-lms-app w-full h-800 flex justify-between ">
       <Sidebar />
-      <div className="second-lms-part">
+      <div className="w-4/5">
         <div className="all-courses-header">
           <div className="new-and-current-courses">
             <div className="lms-courses-header">
@@ -104,7 +122,7 @@ function LMS() {
             </div>
           </div>
 
-          <div className="lms-user-profile">
+          <div className="lms-user-profile w-4/5">
             {UserData.map((item, index) => (
               <div key={index}>
                 <div>
@@ -123,6 +141,8 @@ function LMS() {
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 }

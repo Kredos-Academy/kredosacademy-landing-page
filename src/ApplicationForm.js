@@ -39,7 +39,6 @@ function ApplicationForm() {
         <Navbar />
         <div className='lg:flex inline justify-between'>
             <div className='lg:w-5/12 w-11/12'>
-                <ArrowBackIcon/>
                 <h1 className='lg:text-left text-center font-semibold lg:text-4xl text-2xl lg:mt-32 mt-4 lg:ml-20 ml-6 mb-4'>Proceed with your application</h1>
                 <h1 className='lg:text-left text-center lg:ml-20 ml-8 lg:text-xl text-base font-medium'>Thank you for your interest in applying to Kredos Academy. To continue your
                     application process, please note that you will be charged <span className='text-3xl font-bold'>$10</span> </h1>

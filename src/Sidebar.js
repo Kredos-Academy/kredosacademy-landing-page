@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Sidebar.css';
-
+ 
 const Sidebar = ({children}) => {
     <SidebarData />
   return (
