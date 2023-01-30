@@ -37,13 +37,13 @@ function LMS() {
     <div>
       <div className=" lg:hidden contents">
         <div className="mobile-lms">
-          <h1 className="text-3xl font-bold ml-4 pt-5 mb-10">404</h1>
+          <h1 className="text-3xl font-bold ml-8 pt-5 mb-4">404</h1>
           <img className="w-10/12 ml-4" src={connection} alt="" />
-          <h1 className="text-3xl text-center font-bold ml-4 pt-5 ">oops! <br></br> View on Laptop</h1>
-          <h1 className="text-sm text-center font-medium ml-4 pt-5 mb-10">Sorry, this page can only be viewed on Laptop</h1>
+          <h1 className="text-3xl text-center font-bold ml-4 pt-5 ">Oops! <br></br> View on Laptop</h1>
+          <h1 className="text-sm text-current text-center font-medium ml-4 pt-5 ">Sorry, this page can only be viewed on Laptop</h1>
           <Link className="no-underline" to="/" >
-            <div className="bg-black text-center font-semibold lg:w-40 w-28 lg:rounded-full rounded-3xl lg:h-16 h-10 lg:mt-6 mt-12 lg:ml-630 ml-32 no-underline">
-              <h1 className="lg:text-xl text-md text-center text-white lg:pt-4 pt-2 no-underline">back to home</h1>
+            <div className="bg-black text-center font-semibold lg:w-40 w-36 lg:rounded-full rounded-full lg:h-16 h-12 lg:mt-6 mt-12 lg:ml-630 ml-28 no-underline">
+              <h1 className="lg:text-xl text-md text-center text-white lg:pt-4 pt-2 no-underline">Back to home</h1>
             </div>
           </Link>
         </div>
