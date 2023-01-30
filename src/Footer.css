@@ -1,59 +1,50 @@
-.footer{
-    background-color: rgb(24, 24, 24);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.footer {
+  background-color: rgb(24, 24, 24);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.footer-text{
-    
-    color: whitesmoke;
-   
-    
+.footer-text {
+  color: whitesmoke;
 }
 
-.footer-subtext{
-    
-    color: rgb(244, 230, 204);
-    
+.footer-subtext {
+  color: rgb(244, 230, 204);
 }
 
-.footer-button{
-    
-    background-color: rgb(200, 166, 66);
-    
+.footer-button {
+  background-color: rgb(200, 166, 66);
 }
 
-.footer-splash-image{
-    height: 80px;
-    width: 80px;
-   margin-top: 60px;
-    border-radius: 6px;
+.footer-splash-image {
+  height: 80px;
+  width: 80px;
+  margin-top: 60px;
+  border-radius: 6px;
 }
 
-.footer-socialapps{
-    padding-top: 10px;
-    padding-bottom: 90px;
+.footer-socialapps {
+  padding-top: 10px;
+  padding-bottom: 90px;
 }
 
-.copyright{
-    font-size: 15px;
-    font-weight: 400;
+.copyright {
+  font-size: 15px;
+  font-weight: 400;
 }
 
-.follow-us{
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 50px;
-    margin-left: 60%;
-   
+.follow-us {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-left: 60%;
 }
 
-.social-icons{
-    display: flex;
-  
+.social-icons {
+  display: flex;
 }
 
-.social-icon{
-    width: 20px;
-    height: 20px;
-   margin-right: 20px;
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
 }
