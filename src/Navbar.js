@@ -1,18 +1,18 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import kredoslogo from './Images/kredoslogo4.png'
 
 function Navbar() {
   return (
     <div>
       <div className="flex justify-between h-20  lg:mx-8 mx-6">
-        <div className="lg:ml-12 ml-2 lg:mt-10 mt-4 lg:w-20 w-7">
+        <div className="lg:ml-12 ml-1 lg:mt-7 mt-4 lg:w-20 w-7">
           <Link
-            className="kredos-logo font-extrabold lg:text-3xl text-lg text-black no-underline"
+            className="no-underline"
             to="/"
           >
-            <h1>Kredos</h1>
-            <h1 className="-mt-3">Academy</h1>
+            <img className="max-w-xs lg:w-52 w-24 lg:h-20 h-10" src={kredoslogo} alt="" />
           </Link>
         </div>
 
