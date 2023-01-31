@@ -5,7 +5,7 @@ import UiDesigning from "./Images/designing.png";
 import backend from "./Images/server.png";
 import product from "./Images/shopping-bag.png";
 import splash from "./Images/splash.png";
-import userImage from "./Images/IMG_9675.JPG";
+import lmsImage from "./Images/Screen Shot 2023-01-31 at 8.50.32 AM.png";
 import { Link } from "react-router-dom";
  
 function Header() {
@@ -30,6 +30,10 @@ function Header() {
             </div>
           </Link>
         </div>
+
+      <div className="lg:contents hidden">
+        <img className="lms-screenshot w-11/12 ml-14 mt-24" src={lmsImage} alt="" />
+      </div>
 
         {/*  <div className='lms'>
      

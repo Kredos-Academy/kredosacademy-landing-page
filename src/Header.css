@@ -5,6 +5,14 @@
  
 }
 
+.lms-screenshot{
+    border-radius: 20px;
+    border-width: 1px;
+    border-top-width: 25px;
+    border-left-width: 80px;
+    border-color: black;
+    background-color: whitesmoke;
+}
 .header-text-2{
     
     color: #0a0c0e;
