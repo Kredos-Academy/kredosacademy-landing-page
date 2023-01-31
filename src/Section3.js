@@ -20,12 +20,12 @@ function Section3() {
                 <div className='first-circle lg:w-1/4 w-9/12 lg:h-72 h-56 rounded-3xl lg:mt-10 mt-0 lg:ml-0 ml-12'>
                 <h1 className='lg:text-3xl text-xl ml-5'> Monthly</h1>
                     <hr></hr>
-                    <h1 className='circle-text text-black ml-5 lg:text-5xl text-3xl lg:mt-12 mt-6 font-extrabold'> $15<span className='first-circle-paragraph text-center lg:text-3xl text-2xl font-semibold'>/yearly</span></h1>
+                    <h1 className='circle-text text-black ml-5 lg:text-5xl text-3xl lg:mt-12 mt-6 font-extrabold'> $15<span className='first-circle-paragraph text-center lg:text-3xl text-2xl font-semibold'>/Monthly</span></h1>
                 </div>
                 <div className='third-circle lg:w-1/4 w-9/12 lg:h-72 h-56 rounded-3xl mt-10 lg:ml-0 ml-12'> 
                     <h1 className='text-white lg:text-3xl text-xl ml-5'>Quarterly</h1>
                     <hr></hr>
-                    <h1 className='third-circle-text ml-5 lg:text-5xl text-3xl lg:mt-14 mt-6 font-extrabold'> $45<span className='first-circle-paragraph text-center lg:text-3xl text-2xl font-semibold'>/yearly</span></h1>
+                    <h1 className='third-circle-text ml-5 lg:text-5xl text-3xl lg:mt-14 mt-6 font-extrabold'> $45<span className='first-circle-paragraph text-center lg:text-3xl text-2xl font-semibold'>/ Quarterly</span></h1>
                 </div>
                 <div className='second-circle lg:w-1/4 w-9/12 lg:h-72 h-56 rounded-3xl lg:mt-10 mt-10 lg:ml-0 ml-12'>
                 <h1 className='lg:text-3xl text-xl ml-5'> Yearly</h1>
