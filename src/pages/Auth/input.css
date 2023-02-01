@@ -1,0 +1,4 @@
+
+.form-input {
+	@apply  className='w-full p-5 border border-[black] rounded-xl focus:outline-none focus:border-black
+}
