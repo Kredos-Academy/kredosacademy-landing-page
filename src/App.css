@@ -70,7 +70,7 @@
 }
 
 .css-xelq0e-MuiPickerStaticWrapper-content{
-  background-color: whitesmoke !important;
+  background-color: whitesmoke !important; 
 }
 
 .css-i4bv87-MuiSvgIcon-root{
@@ -98,4 +98,33 @@
 
 .css-1dimb5e-singleValue{
   background-color: rgb(245, 241, 235) !important;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color: rgb(128, 125, 125) !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  !important;
+  font-size: 20px !important;
+}
+
+.css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:after{
+  border-bottom: none !important;
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+  background-color: rgb(245, 241, 235) !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input:focus{
+  background-color: rgb(245, 241, 235) !important;
+}
+
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }

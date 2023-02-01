@@ -2,7 +2,11 @@ import { useState } from 'react'
 import React from 'react'
 import './ApplicationForm.css'
 import Navbar from './Navbar'
-import Select from 'react-select'
+
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
 
 function ApplicationForm() {
 
@@ -40,6 +44,14 @@ function ApplicationForm() {
       ]
      
 
+     
+        const [ages, setAges] = React.useState('');
+      
+        const handleChange = (event) => {
+          setAges(event.target.value);
+        };
+      
+
   return (
     <div className='application pb-28'>
         <Navbar />
@@ -71,9 +83,33 @@ function ApplicationForm() {
                     <input className='form-inputs w-80 h-16 mt-8 rounded-xl lg:ml-0 ml-3 pl-2' placeholder='Last Name' onChange={e=>setlastName(e.target.value)}/>
                             {error&&lastName.length<=0?<label>Input your last name</label> : ''}
                             <input className='form-inputs w-80 h-16 mt-8 rounded-xl lg:ml-0 ml-3 pl-2' placeholder='Gender' onChange={e=>setgender(e.target.value)}/>
-                            <Select styles={{menuList:(basestyles) => ({...basestyles, backgroundColor: 'gray'}),
-                        option:(basestyles) => ({...basestyles, backgroundColor: 'gray'})}} className='form-inputs w-80 h-16 mt-8 rounded-xl lg:ml-0 ml-3 pl-2' placeholder='Gender'  options={options} />
+                           {/*  <Select styles={{menuList:(basestyles) => ({...basestyles, backgroundColor: 'gray'}),
+                        option:(basestyles) => ({...basestyles, backgroundColor: 'gray'})}} className='form-inputs w-80 h-16 mt-8 rounded-xl lg:ml-0 ml-3 pl-2' placeholder='Gender'  options={options} /> */}
                             {error&&gender.length<=0?<label>Enter your gender</label> : ''}
+
+
+
+
+
+                        <div className='form-inputs w-80 h-16 mt-8 rounded-xl lg:ml-0 ml-3 pl-2'>
+                            <FormControl className='' variant="standard" sx={{  ml: 1, minWidth: 290 }}>
+                                <InputLabel id="demo-simple-select-standard-label" className='text-black'>Age</InputLabel>
+                                <Select
+                                labelId="demo-simple-select-standard-label"
+                                id="demo-simple-select-standard"
+                                value={ages}
+                                onChange={handleChange}
+                                label="Age"
+                                >
+                                <MenuItem value="">
+                                    <em>None</em>
+                                </MenuItem>
+                                <MenuItem value={10}>10</MenuItem>
+                                <MenuItem value={20}>20</MenuItem>
+                                <MenuItem value={30}>20</MenuItem>
+                                </Select>
+                            </FormControl>
+                        </div>
                             <input className='form-inputs w-80 h-16 mt-8 rounded-xl lg:ml-0 ml-3 pl-2' placeholder='State of residence' onChange={e=>setstateOfResidence(e.target.value)}/>
                             {error&&stateOfResidence.length<=0?<label>Enter your state of residence</label> : ''}
                             <input className='form-inputs w-80 h-16 mt-8 rounded-xl lg:ml-0 ml-3 pl-2' placeholder='Level of education' onChange={e=>setlevelOfEducation(e.target.value)}/>

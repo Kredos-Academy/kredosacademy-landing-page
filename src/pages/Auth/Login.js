@@ -29,7 +29,7 @@ export default function Login() {
 
 						<button
 							className='payment-button lg:w-10/12 w-6/12 lg:h-16 h-10 rounded-full lg:mb-16 mb-10 lg:ml-16 ml-20 mt-14'
-							onClick={() => navigate.push('lms')}
+							onClick={() => navigate.push('/lms')}
 						>
 							<h1 className='text-white lg:text-2xl text-md font-bold'>Login</h1>
 						</button>
