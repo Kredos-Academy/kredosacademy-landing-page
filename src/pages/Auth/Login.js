@@ -1,9 +1,11 @@
 import React from 'react';
 import './auth.css';
 import TextInput from './Input';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 export default function Login() {
+	const navigate = useHistory();
+
 	return (
 		<div className='auth p-20'>
 			<div className='w-full flex-none md:flex md:items-center md:justify-between'>
@@ -25,7 +27,10 @@ export default function Login() {
 							placeholder='password'
 						/>
 
-						<button className='payment-button lg:w-10/12 w-6/12 lg:h-16 h-10 rounded-full lg:mb-16 mb-10 lg:ml-16 ml-20 mt-14'>
+						<button
+							className='payment-button lg:w-10/12 w-6/12 lg:h-16 h-10 rounded-full lg:mb-16 mb-10 lg:ml-16 ml-20 mt-14'
+							onClick={() => navigate.push('lms')}
+						>
 							<h1 className='text-white lg:text-2xl text-md font-bold'>Login</h1>
 						</button>
 
