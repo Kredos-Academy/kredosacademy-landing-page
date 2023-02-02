@@ -13,8 +13,8 @@ export default function Auth() {
 		<div className='auth lg:h-940 h-full p-20'>
 			<div className='w-full flex-none md:flex md:items-center md:justify-between'>
 				<div className='w-full md:w-[40%] flex items-center'>
-					<h1 className='md:text-left text-center font-semibold lg:text-6xl text-2xl lg:mt-32 mt-4 lg:ml-16 ml-0 mb-4'>
-						Proceed to create an account
+					<h1 className='md:text-left text-center font-semibold lg:text-6xl text-3xl lg:mt-32 mt-4 lg:ml-16 ml-0 mb-4'>
+						Create an account 🤩
 					</h1>
 				</div>
 				<div className='w-full md:w-[60%] flex flex-col my-8'>
@@ -52,7 +52,7 @@ export default function Auth() {
 								className='payment-button lg:w-10/12 w-10/12 lg:h-16 h-12 rounded-full lg:mb-16 mb-5 lg:ml-16 md:ml-8 ml-4 mt-14'
 								onClick={() => setShowNext(true)}
 							>
-								<h1 className='text-white lg:text-2xl text-md font-bold'>continue</h1>
+								<h1 className='text-white lg:text-2xl text-md font-bold'>Confirm password</h1>
 							</button>
 						)}
 
