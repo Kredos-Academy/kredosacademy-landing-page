@@ -13,7 +13,7 @@ export default function Auth() {
 		<div className='auth lg:h-940 h-full p-20'>
 			<div className='w-full flex-none md:flex md:items-center md:justify-between'>
 				<div className='w-full md:w-[40%] flex items-center'>
-					<h1 className='md:text-left text-center font-semibold lg:text-6xl text-3xl lg:mt-32 mt-4 lg:ml-16 ml-0 mb-4'>
+					<h1 className='md:text-left text-center font-semibold lg:text-6xl text-3xl lg:mt-32 mt-4 lg:ml-16 ml-0 lg:mb-4 mb-0'>
 						Create an account 🤩
 					</h1>
 				</div>
@@ -32,6 +32,7 @@ export default function Auth() {
 							placeholder='password'
 							// value={password}
 							onClick={(e) => setPassword(e.target.value)}
+
 						/>
 
 						{showNext === true ? (
