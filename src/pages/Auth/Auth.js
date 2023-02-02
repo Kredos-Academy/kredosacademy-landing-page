@@ -10,24 +10,24 @@ export default function Auth() {
 	const [showNext, setShowNext] = useState(false);
 
 	return (
-		<div className='auth p-20'>
+		<div className='auth lg:h-940 h-full p-20'>
 			<div className='w-full flex-none md:flex md:items-center md:justify-between'>
 				<div className='w-full md:w-[40%] flex items-center'>
-					<h1 className='md:text-left text-center font-semibold lg:text-4xl text-2xl lg:mt-32 mt-4 lg:ml-20 ml-6 mb-4'>
-						proceed to create an account
+					<h1 className='md:text-left text-center font-semibold lg:text-6xl text-2xl lg:mt-32 mt-4 lg:ml-16 ml-0 mb-4'>
+						Proceed to create an account
 					</h1>
 				</div>
 				<div className='w-full md:w-[60%] flex flex-col my-8'>
 					<form>
 						<TextInput
-							className='w-full p-5 border border-[black] rounded-xl focus:outline-none focus:border-black mt-8'
+							className='w-full lg:h-16 h-14 lg:p-5 p-3 border border-[black] rounded-xl focus:outline-none focus:border-black mt-8'
 							name='fName'
 							placeholder='Batch no (e.g) - #0001'
 							// value={bathId}
 							onClick={(e) => setBatchId(e.target.value)}
 						/>
 						<TextInput
-							className='w-full p-5 border border-[black] rounded-xl focus:outline-none focus:border-black mt-8'
+							className='w-full lg:h-16 h-14 lg:p-5 p-3 border border-[black] rounded-xl focus:outline-none focus:border-black mt-8'
 							name='fName'
 							placeholder='password'
 							// value={password}
@@ -35,30 +35,30 @@ export default function Auth() {
 						/>
 
 						{showNext === true ? (
-							<>
+							<> 
 								<TextInput
-									className='w-full p-5 border border-[black] rounded-xl focus:outline-none focus:border-black mt-8'
+									className='w-full lg:h-16 h-14 lg:p-5 p-3 border border-[black] rounded-xl focus:outline-none focus:border-black mt-8'
 									name='cPassword'
 									placeholder='confirm password'
 									// value={confirmPassword}
 									onClick={(e) => setConfirmPassword(e.target.value)}
 								/>
-								<button className='payment-button lg:w-10/12 w-6/12 lg:h-16 h-10 rounded-full lg:mb-16 mb-10 lg:ml-16 ml-20 mt-14'>
+								<button className='payment-button lg:w-10/12 w-10/12 lg:h-16 h-12 rounded-full lg:mb-16 mb-5 lg:ml-16 md:ml-8 ml-4 mt-14'>
 									<h1 className='text-white lg:text-2xl text-md font-bold'>Sign up</h1>
 								</button>
 							</>
 						) : (
 							<button
-								className='payment-button lg:w-10/12 w-6/12 lg:h-16 h-10 rounded-full lg:mb-16 mb-10 lg:ml-16 ml-20 mt-14'
+								className='payment-button lg:w-10/12 w-10/12 lg:h-16 h-12 rounded-full lg:mb-16 mb-5 lg:ml-16 md:ml-8 ml-4 mt-14'
 								onClick={() => setShowNext(true)}
 							>
 								<h1 className='text-white lg:text-2xl text-md font-bold'>continue</h1>
 							</button>
 						)}
 
-						<div className='flex items-center justify-start flex-col my-4 md:flex-row'>
+						<div className='flex items-center justify-start flex-col lg:ml-64 md:ml-16 my-4 md:flex-row'>
 							<span>Already have an account? </span>{' '}
-							<Link to='/auth/login' className=' text-green-600 pl-2 hover:underline'>
+							<Link to='/auth/login' className=' text-green-600 lg:pl-2 pl-0 hover:underline'>
 								login
 							</Link>
 						</div>
