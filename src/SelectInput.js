@@ -20,7 +20,7 @@ const SelectInput = forwardRef((props, ref) => {
 						) : (
 							<span className='block truncate capitalize'>{item.name}</span>
 						)}
-						<span className='pointer-events-none absolute inset-y-0 right-0 flex items-right '>
+						<span className='pointer-events-none absolute inset-y-0 right-0 flex items-center '>
 							{/* <Icon icon='ri-arrow-down-s-line' className='text-[20px]' /> */}
                             <ArrowDropDown  className="text-[20px]" />
 						</span>
