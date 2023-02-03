@@ -14,9 +14,9 @@ const SelectInput = forwardRef((props, ref) => {
 		<div ref={ref} className='mt-8'>
 			<Listbox value={item} onChange={setItem}>
 				<div className='mt-1 relative'>
-					<Listbox.Button className='lg:relative w-full form-select-input p-5 border border-[black] rounded-xl focus:outline-none focus:border-black cursor-default py-5 pl-3 pr-10 text-left'>
+					<Listbox.Button className='lg:relative w-80 h-16 lg:ml-0 ml-3 form-select-input  border border-[black] rounded-xl focus:outline-none focus:border-black cursor-default  pl-2 text-left'>
 						{item === '' ? (
-							<span className=' capitalize text-[#C2C4CD]'>{placeholder}</span>
+							<span className=' capitalize text-[#9f9fa3]'>{placeholder}</span>
 						) : (
 							<span className='block truncate capitalize'>{item.name}</span>
 						)}
@@ -31,7 +31,7 @@ const SelectInput = forwardRef((props, ref) => {
 							animate={{ opacity: 1 }}
 							exit={{ opacity: 0 }}
 							transition={{ duration: 0.1 }}
-							className='absolute z-10 mt-1 w-full bg-white dark:bg-theme-grey-900 shadow-lg max-h-96 rounded-md text-base  sm:text-sm'
+							className='absolute lg:ml-0 ml-3 z-10 mt-1 w-80 bg-white dark:bg-theme-grey-900 shadow-lg max-h-96 rounded-md text-base  sm:text-sm'
 							tabIndex={-1}
 							role='listbox'
 							aria-labelledby='listbox-label'
@@ -49,7 +49,7 @@ const SelectInput = forwardRef((props, ref) => {
 												onChange={(e) => setQuery(e.target.value)}
 											/>
 										</li>
-										<hr />
+										<hr className='w-full' />
 									</div>
 								) : null}
 								{options.filter((items) => items.name.toLowerCase().includes(query.toLowerCase()))

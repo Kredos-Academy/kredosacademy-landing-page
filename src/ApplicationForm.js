@@ -2,11 +2,6 @@ import { createRef, useState } from 'react';
 import React from 'react';
 import './ApplicationForm.css';
 import Navbar from './Navbar';
-
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
 import SelectInput from './SelectInput';
 import listItems from './util';
 import countries from './Countries.json';
@@ -60,7 +55,7 @@ function ApplicationForm() {
 					onSubmit={handleSubmit}
 				>
 					<div className='lg:flex inline justify-between ml-10 mt-20 pb-7'>
-						<div className='mr-10'>
+						<div className='mr-10'> 
 							<input
 								className='form-inputs w-80 h-16 mt-8 rounded-xl lg:ml-0 ml-3 pl-2'
 								placeholder='First Name'
@@ -73,11 +68,7 @@ function ApplicationForm() {
 								onChange={(e) => setphonenumber(e.target.value)}
 							/>
 							{error && phonenumber.length <= 0 ? <label>Input your phone Number</label> : ''}
-							<input
-								className='form-inputs w-80 h-16 mt-8 rounded-xl lg:ml-0 ml-3 pl-2'
-								placeholder='Country of Residence'
-								onChange={(e) => setcountry(e.target.value)}
-							/>
+							
 							<SelectInput
 								ref={countryRef}
 								placeholder={'Country of Residence'}
