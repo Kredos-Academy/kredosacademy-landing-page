@@ -83,13 +83,13 @@ function LMS() {
                   {truncate(
                     "The backend refers to a programs code that allow it to operate and that cannot be accessed by a user"
                   )}
-                </p>
+                </p> 
               </div>
             </div>
 
             <PopUp trigger={timedPopup} setTrigger={settimedPopup}>
               <div>
-                <Confetti numberOfPieces={150} width={400} height={550} />
+                <Confetti className="rounded-3xl" numberOfPieces={200} width={350} height={500} />
                 <h3>welcome back</h3>
                 <img className="welcome-image" src={userImage} alt="" />
                 <h2>Agoh Kelechi</h2>
