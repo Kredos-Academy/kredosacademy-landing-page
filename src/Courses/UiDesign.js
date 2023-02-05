@@ -1,6 +1,7 @@
 import React from "react";
 import { BackendData } from "./BackendData";
 import { Link } from "react-router-dom";
+import '../AllCourses.css'
 
 function FrontendCourse() {
   return (

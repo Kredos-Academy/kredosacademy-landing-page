@@ -13,6 +13,7 @@ import BackendCourse from './Courses/BackendCourse';
 import UiDesign from './Courses/UiDesign';
 import Frontendvideo from './Videos/Frontendvideo';
 import { Auth, Login } from './pages/Auth';
+import Settings  from './Settings';
 
 function App() {
 	return (
@@ -54,6 +55,9 @@ function App() {
 						</Route>
 						<Route path='/Student/courses/UiDesign'>
 							<UiDesign />
+						</Route>
+						<Route path='/Student/Settings'>
+							<Settings />
 						</Route>
 					</Sidebar>
 				</Switch>
