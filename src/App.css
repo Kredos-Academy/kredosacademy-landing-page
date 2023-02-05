@@ -44,8 +44,33 @@
   padding-left: 20px;
 }
 
+.css-wed0tz.Mui-disabled{
+  color: white;
+}
+
 .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected{
   background-color: black !important;
+}
+
+.css-wed0tz:not(.Mui-selected){
+  background-color: rgb(231, 123, 123) !important;
+}
+
+
+.css-wed0tz.Mui-selected{
+  background-color: black !important;
+}
+
+.css-ub1r1.Mui-selected{
+  background-color: black !important;
+}
+
+.css-ub1r1.Mui-selected:hover{
+  background-color: black !important;
+}
+
+.css-wed0tz.Mui-disabled{
+  color: black;
 }
 
 .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root {
@@ -127,4 +152,27 @@
 
 .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.css-9j5nro{
+  display: none !important;
+}
+
+.css-14b29qc{
+  display: none !important;
+}
+
+.css-fhpqww{
+  display: none !important;
+}
+.css-1mtwusg .MuiPickersToolbar-penIconButtonLandscape{
+  display: none !important;
+}
+
+.css-1mtwusg{
+  display: none !important;
+}
+
+.css-1xhj18k{
+  background-color: rgb(245, 241, 235) !important;
 }
